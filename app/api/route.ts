@@ -4,9 +4,3 @@ export async function GET(){
        hello : "world"
     })
 }
-
-export async function PATCH() {
-    return NextResponse.json({
-     hello : "i like mice"
-    })
-}
