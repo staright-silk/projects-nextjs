@@ -4,3 +4,8 @@ export async function GET(){
        hello : "world"
     })
 }
+export async function POST(){
+    return NextResponse.json({
+        bottle : "is blue"
+    })
+}
