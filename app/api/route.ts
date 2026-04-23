@@ -9,3 +9,9 @@ export async function POST(){
         bottle : "is blue"
     })
 }
+
+export async function PATCH(){
+    return NextResponse.json({
+        hello : "i like mice"
+    })
+}
